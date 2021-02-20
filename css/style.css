@@ -1,0 +1,113 @@
+/*reiniciar los margenes y rellenos de la pagina web*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Impact;
+    font-size: 16px;
+    background-color: #52aed3;
+    min-height: 100%;
+}
+
+.contenedor {
+    width: 96%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    background-color:cornsilk;
+}
+
+header nav{
+    width: 100%;
+}
+
+header nav ul
+{
+    list-style: none;
+    overflow: hidden;
+}
+
+header nav ul li {
+    float:left;
+}
+
+header nav ul li a {
+    padding: 15px 10px;
+    color: #825458;
+    display: inline-block;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #0000;
+    color:red;
+}
+
+.main {
+    width: 70%;
+    float: left;
+    background-color: cornsilk;
+}
+
+.main .imagen
+{
+    width: 100%;
+}
+
+.main .imagen img {
+    width: 100%;
+}
+
+.main .post {
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.main .post article h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f5eedc;
+}
+
+.main .post article p {
+    line-height: 30px;
+}
+
+/*agrego esto*/
+
+.widget 
+{
+    width: 70%;
+    float: left;
+    background-color: cornsilk;
+}
+
+.widget .titulo {
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f5eedc;
+}
+
+.widget .titulo p 
+{
+    line-height: 30px;
+}
+
+/*revisar footer*/
+
+footer  {
+
+    clear: both;
+    position: static;
+    height: 200px;
+    margin-top: -200px;
+}
+
